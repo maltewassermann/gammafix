@@ -1,11 +1,12 @@
 <img align="right" width="240" height="240" src="assets/gammafix-logo.png">
 
-# GammaFix
-PNG gAMA optimizer for Mac OS X 10.0+
+# GammaFix – A image optimizer for the web
 
 [![GitHub version](https://badge.fury.io/gh/maltewassermann%2Fgammafix.svg)](https://badge.fury.io/gh/maltewassermann%2Fgammafix)
 
 ---
+
+__PNG gAMA optimizer for Mac OS X 10.0+__
 
 GammaFix is a tool that allows web designers to correct the gAMA information from PNG files to get a consistent result in all browsers.
 
