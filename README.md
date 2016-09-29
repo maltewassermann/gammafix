@@ -1,4 +1,4 @@
-<img align="right" width="240" height="240" src="assets/gammafix-logo.png">
+<img align="right" src="assets/gammafix-logo.png">
 
 # GammaFix for Mac OS X 10.0+
 
