@@ -21,6 +21,7 @@ PNG breaks the consistency. When the gAMA of PNG images is disturbed but the CSS
 - Drag'n'drop your PNG images into the application icon
 - It will clean-up your files automatically and duplicate your file with the suffix 'fix.png'
 
+
 ![Usage](assets/usage.jpg)
 
 ## Build dependencies
