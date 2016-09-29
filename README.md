@@ -1,6 +1,6 @@
 # GammaFix
 
-__PNG gAMA optimizer for Mac OS X 10.0+__
+__PNG gAMA optimizer for Mac OS X 10.0+.__
 
 GammaFix is a tool that allows web designers to correct the gAMA information from PNG files to get a consistent result in all browsers.
 
@@ -13,7 +13,7 @@ PNG breaks the consistency. When the gAMA of PNG images is disturbed but the CSS
 
 ## Usage
 - Drag'n'drop your PNG images into the application icon
-- it will clean-up your files automatically and duplicate your file with the suffix 'fix.png'
+- It will clean-up your files automatically and duplicate your file with the suffix 'fix.png'
 
 ## Build dependencies
 - [Platypus](http://sveinbjorn.org/platypus) – Mac OS X developer tool that creates application bundles from scripts
