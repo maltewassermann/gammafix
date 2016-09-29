@@ -3,5 +3,5 @@
 PNG gAMA optimizer for Mac OS X.
 
 ## Dependencies
-- [Platypus](http://sveinbjorn.org/platypus) – OS X developer tool that creates application bundles from scripts
-- [PNGCRUSH](http://pmt.sourceforge.net/pngcrush) – PNGCRUSH is a free and open source command-line utility for optimizing PNG image files
+- [Platypus](http://sveinbjorn.org/platypus) – Mac OS X developer tool that creates application bundles from scripts
+- [PNGCrush](http://pmt.sourceforge.net/pngcrush) – PNGCrush is a free and open source command-line utility for optimizing PNG image files
