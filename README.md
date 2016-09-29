@@ -6,7 +6,7 @@
 
 ---
 
-__A PNG image optimizer for the web__
+__A PNG image optimizer for the web.__
 
 GammaFix is a tool that allows web designers to correct the gAMA information from PNG files to get a consistent result in all browsers.
 
