@@ -1,50 +1,24 @@
 #!/usr/bin/php
 
 <?php
-/* GammaFix
- * http://code.maltewassermann.com
- *
+/**
+ * GammaFix 1.0
  * Copyright (c) 2009 Malte Wassermann
- * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
- * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
- *
- * Version: 1.0
- *
- * Requires: PNGCrush (http://pmt.sourceforge.net/pngcrush/)
- *
- * Settings:
- * 		- Parameters => Set $1 to path to application
- *		- Progress Bar
- * 		- Is droppable => Suffixes: "png" (Viewer)
- *		- Resources Folder => pngcrush
- *
- * argv (
- *		[0] => /Users/maw/GammaFix.app/Contents/Resources/script
- *		[1] => /Users/maw/GammaFix.app
- *		[2] => /Users/maw/file.png)
  */
 
 $pngcrush = "$argv[1]/Contents/Resources/pngcrush";
 
 foreach ($argv as $file) {
-	if ($items > 1) {
-		
-		// split file
-		$filename = basename($file);
-		$suffix = strrchr($file, '.');
-		$name = basename($file, $suffix);
-		
-		// path
-		$path = dirname($file);
-		
-		// new file
-		$newFile = $path . '/' . $name . '.fix' . $suffix;
-		
-		if (!file_exists($newFile)) {
-			system("$pngcrush -rem cHRM -rem gAMA -rem iCCP -rem sRGB '$file' '$newFile'", $results);
-			// chmod($newFile, 0777);
-		}
-	}
-	$items++;
+  if ($items > 1) {
+    $filename = basename($file);
+    $suffix = strrchr($file, '.');
+    $name = basename($file, $suffix);
+    $path = dirname($file);
+    $newFile = $path . '/' . $name . '.fix' . $suffix;
+    if (!file_exists($newFile)) {
+      system("$pngcrush -rem cHRM -rem gAMA -rem iCCP -rem sRGB '$file' '$newFile'", $results);
+    }
+  }
+  $items++;
 }
 ?>
