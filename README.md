@@ -10,7 +10,7 @@ __A PNG image optimizer for the web.__
 
 GammaFix is a tool that allows web designers to correct the gAMA information from PNG files to get a consistent result in all browsers.
 
-## The problem
+## The Problem
 *Effective in 2009*
 
 When images are used as parts of a designs, consistent color handling is often more important than colorimetric correcness. For a design that combines CSS and images, it’s important that a color with a particular color value is displayed consistently regardless of the source—style sheet or image file—of the color value.
@@ -23,6 +23,6 @@ PNG breaks the consistency. When the gAMA of PNG images is disturbed but the CSS
 
 ![Usage](assets/usage.jpg)
 
-## Build dependencies
+## Build Dependencies
 - [Platypus](http://sveinbjorn.org/platypus) – Mac OS X developer tool that creates application bundles from scripts
 - [PNGCrush](http://pmt.sourceforge.net/pngcrush) – PNGCrush is a free and open source command-line utility for optimizing PNG image files
