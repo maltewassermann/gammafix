@@ -1,0 +1,4 @@
+CFBundleName = "GammaFix";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "GammaFix version 1.0 Copyright 2009 Malte Wassermann";
+NSHumanReadableCopyright = "Copyright 2009 Malte Wassermann.";
