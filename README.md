@@ -1,8 +1,8 @@
+<img align="right" height="256" src="assets/gammafix-logo.png">
+
 # GammaFix
 
 [![GitHub version](https://badge.fury.io/gh/maltewassermann%2Fgammafix.svg)](https://badge.fury.io/gh/maltewassermann%2Fgammafix)
-
-<img align="right" height="256" src="assets/gammafix-logo.png">
 
 ---
 
